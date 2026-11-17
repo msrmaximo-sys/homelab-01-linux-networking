@@ -1,0 +1,52 @@
+# Apuntes previos: se conservan localmente; se publican los documentos de docs/.
+/Homelab 01.docx
+/HomeLab01.pdf
+
+# Instrucciones locales para publicar.
+/PUBLICAR_EN_GITHUB.md
+
+# Archivos temporales y del editor.
+~$*
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+__pycache__/
+.venv/
+
+# Entorno local y credenciales.
+.env
+.env.*
+!.env.example
+.ssh/
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.aws/
+.codex/
+.agents/
+
+# Imágenes y estado de máquinas virtuales.
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.iso
+*.sav
+*.vbox
+*.vbox-prev
+
+# Solo se versionan las cuatro capturas documentadas.
+*.pcap
+*.pcapng
+!/evidencias/01-arp-icmp-red-interna.pcapng
+!/evidencias/02-icmp-destino-externo.pcapng
+!/evidencias/03-arp-sin-respuesta.pcapng
+!/evidencias/04-ssh-conexion-y-cierre.pcapng
